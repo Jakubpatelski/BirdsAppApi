@@ -14,6 +14,7 @@
 		15461B3C29BE603200C1C0A1 /* BirdsAppApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15461B3B29BE603200C1C0A1 /* BirdsAppApiTests.swift */; };
 		15461B4629BE603200C1C0A1 /* BirdsAppApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15461B4529BE603200C1C0A1 /* BirdsAppApiUITests.swift */; };
 		15461B4829BE603200C1C0A1 /* BirdsAppApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15461B4729BE603200C1C0A1 /* BirdsAppApiUITestsLaunchTests.swift */; };
+		15461B5529BE783F00C1C0A1 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15461B5429BE783F00C1C0A1 /* ApiCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		15461B4129BE603200C1C0A1 /* BirdsAppApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdsAppApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15461B4529BE603200C1C0A1 /* BirdsAppApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsAppApiUITests.swift; sourceTree = "<group>"; };
 		15461B4729BE603200C1C0A1 /* BirdsAppApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsAppApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15461B5429BE783F00C1C0A1 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				15461B2929BE603000C1C0A1 /* BirdsAppApiApp.swift */,
 				15461B2B29BE603000C1C0A1 /* ContentView.swift */,
+				15461B5429BE783F00C1C0A1 /* ApiCall.swift */,
 				15461B2D29BE603200C1C0A1 /* Assets.xcassets */,
 				15461B2F29BE603200C1C0A1 /* BirdsAppApi.entitlements */,
 				15461B3029BE603200C1C0A1 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15461B2C29BE603000C1C0A1 /* ContentView.swift in Sources */,
+				15461B5529BE783F00C1C0A1 /* ApiCall.swift in Sources */,
 				15461B2A29BE603000C1C0A1 /* BirdsAppApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
