@@ -44,7 +44,7 @@ struct BirdRow: View {
             }
             
             Text(bird.name)
-                .fontWeight(.semibold)
+                .font(.system(size: 18, weight: .semibold, design: .serif))
                 .padding(.leading, 5)
                 
             
@@ -70,6 +70,7 @@ struct BirdDetailView: View {
 
             
             Text(bird.description)
+                .font(.system(size:20, design: .serif))
                 .lineLimit(7)
             
             Spacer()
