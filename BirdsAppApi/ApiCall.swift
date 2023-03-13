@@ -20,7 +20,7 @@ class BirdData: ObservableObject {
     
     init() {
         // Make the API call
-        guard let url = URL(string: "http://localhost:8080/birds") else {
+        guard let url = URL(string: "https://a-pi-birds-node-js.vercel.app/") else {
             return
             
         }
